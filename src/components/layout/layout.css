@@ -1,0 +1,29 @@
+.tabButton {
+  background-color: transparent;
+  color: black;
+  border: none;
+  width: 33.33%;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 40px;
+}
+
+.activeButton {
+  background-color: #fa7b77;
+}
+
+.tabButtonContainer {
+  display: flex;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .tabButtonContainer {
+    width: 100%;
+  }
+
+  .tabButton {
+    line-height: 35px;
+  }
+}
